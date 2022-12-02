@@ -36,7 +36,9 @@
       "resources": [
         "js/inject.js"
       ],
-      "matches": []
+      "matches": [
+        "<all_urls>"
+      ]
     }
   ],
   "homepage_url": "https://github.com/jianpiao/jira-prevnet-click",
