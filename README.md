@@ -15,6 +15,6 @@ jira需求通常是由产品他们进行撰写以及变更，我们开发同学�
 
 最后启动插件。
 
-![打开谷歌浏览器拓展程序](https://github.com/jianpiao/jira-prevnet-click/images/open.png)
+![打开谷歌浏览器拓展程序](https://github.com/jianpiao/jira-prevnet-click/images/open.png?raw=true)
 
-![添加插件](https://github.com/jianpiao/jira-prevnet-click/images/extensions.png)
+![添加插件](https://github.com/jianpiao/jira-prevnet-click/images/extensions.png?raw=true)
