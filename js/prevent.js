@@ -10,9 +10,9 @@ function injectCustomJs(jsPath) {
   jsPath = jsPath || "js/inject.js";
   const temp = document.createElement("script");
   temp.setAttribute("type", "text/javascript");
-  temp.src = chrome.extension.getURL(jsPath);
+  temp.src = chrome.runtime.getURL(jsPath);
   temp.onload = function () {
-    console.log("jira-prevent-click加载成功！");
+    console.log("jira-prevent-click is loaded！");
   };
   document.body.appendChild(temp);
 }

@@ -3,18 +3,18 @@
   "name": "jira-prevent-click",
   "manifest_version": 3,
   "description": "阻止jira描述本文点击事件",
-  "background": {
-    "scripts": ""
-  },
   "icons": {
     "48": "images/48.png",
     "96": "images/48.png",
     "128": "images/48.png"
   },
   "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
     "<all_urls>"
   ],
-  "browser_action": {
+  "action": {
     "default_icon": "images/48.png",
     "default_title": "jira禁止点击",
     "default_popup": ""
@@ -33,7 +33,9 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": [],
+      "resources": [
+        "js/inject.js"
+      ],
       "matches": []
     }
   ],
