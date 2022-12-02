@@ -5,10 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
   injectCustomJs();
 });
 
-document.addEventListener("load", function () {
-  injectCustomJs();
-});
-
 // 向页面注入自定义js
 function injectCustomJs(jsPath) {
   jsPath = jsPath || "js/inject.js";
